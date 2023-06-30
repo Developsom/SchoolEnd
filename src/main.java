@@ -34,23 +34,25 @@ public class main {
 
     public void bartender(String name) {
             switch (name) {
-            case 1:
+            case "1":
                 System.out.println("Erika");
                 break;
-            case 2:
+            case "2":
                 System.out.println("July");
                 break;
-            case 3:
+            case "3":
                 System.out.println("Piet");
                 break;
-            case 4:
+            case "4":
                 System.out.println("Pinas");
                 break;
+                default:
+                    System.out.println("Fill the name of the bartender you'd wish to know the fav drink of");
         }
         }
     }
 
     public void sum(int input1, int input2) {
-
+        System.out.println(input1 + input2);
     }
 }
