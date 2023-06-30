@@ -1,39 +1,42 @@
 public class main {
-
-    private int number;
-    private int input1;
-    private int input2;
-    private String name;
-
     public static void Main(String[]args){
+        int number = 6;
+        int input1 = 4;
+        int input2 = 20;
+        String name = "Henk";
 
+        hello();
+        positiveOrNegativ(number);
+        positiveOrZeroOrNegativ(number);
+        bartender(name);
+        sum(input1, input2);
     }
 
-    public void hello() {
+    public static void hello() {
         System.out.println("Hello, World!");
     }
-    public void positiveOrNegativ(int number) {
+    public static void positiveOrNegativ(int number) {
         if ( number > 0){
-            System.out.println(input1 + "is bigger than" + input2 + "!" );
+            System.out.println("This nr pos!" );
         }
         else {
             System.out.println("This number is negative !");
         }
     }
 
-    public void positiveOrZeroOrNegativ(int number) {
-        if ( number > 0) {
+    public static void positiveOrZeroOrNegativ(int number) {
+        if (number > 0) {
             System.out.println("This number is positive !");
         }
-        if ( number == 0) {
+        if (number == 0) {
             System.out.println("This number is zero !");
-        }
-        else {
+        } else {
             System.out.println("This nr is neg!");
         }
+    }
 
-    public void bartender(String name) {
-            switch (name) {
+    public static void bartender(String name) {
+        switch (name) {
             case "1":
                 System.out.println("Erika");
                 break;
@@ -46,13 +49,15 @@ public class main {
             case "4":
                 System.out.println("Pinas");
                 break;
-                default:
-                    System.out.println("Fill the name of the bartender you'd wish to know the fav drink of");
-        }
+            default:
+                System.out.println("Fill the name of the bartender you'd wish to know the fav drink of");
         }
     }
 
-    public void sum(int input1, int input2) {
+
+    public static void sum(int input1, int input2) {
         System.out.println(input1 + input2);
     }
+
+
 }
