@@ -1,9 +1,9 @@
-public class main {
-    public static void Main(String[]args){
-        int number = 6;
+public class Main {
+    public static void main(String[]args){
+        int number = 0;
         int input1 = 4;
-        int input2 = 20;
-        String name = "Henk";
+        int input2 = 0;
+        String name = "2";
 
         hello();
         positiveOrNegativ(number);
@@ -15,6 +15,7 @@ public class main {
     public static void hello() {
         System.out.println("Hello, World!");
     }
+
     public static void positiveOrNegativ(int number) {
         if ( number > 0){
             System.out.println("This nr pos!" );
@@ -28,7 +29,7 @@ public class main {
         if (number > 0) {
             System.out.println("This number is positive !");
         }
-        if (number == 0) {
+        else if (number == 0) {
             System.out.println("This number is zero !");
         } else {
             System.out.println("This nr is neg!");
@@ -54,10 +55,7 @@ public class main {
         }
     }
 
-
     public static void sum(int input1, int input2) {
         System.out.println(input1 + input2);
     }
-
-
 }
