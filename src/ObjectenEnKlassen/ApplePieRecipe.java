@@ -1,6 +1,12 @@
 package ObjectenEnKlassen;
 
 public class ApplePieRecipe {
+    public void printIngredients() {
+        Ingredient ingredient = new Ingredient();
+        System.out.println(ingredient.getAmount() + " " + ingredient.getUnit() + " " + ingredient.getName());
+
+        //print all required ingredients
+    }
     public void verwarmOven(){
         System.out.println("Verwarm de oven van te voren op 170 graden Celsius (boven en onderwarmte)");
     }
