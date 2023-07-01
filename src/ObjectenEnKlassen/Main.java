@@ -6,16 +6,6 @@ public class Main {
 
 
         applePieRecipe.printIngredients();
-        applePieRecipe.appelsBereiden();
-        applePieRecipe.bakken();
-        applePieRecipe.bedekBodemEnRandMetDeeg();
-        applePieRecipe.appelsGebruik();
-        applePieRecipe.benutDeegRestant();
-        applePieRecipe.deegBereiden();
-        applePieRecipe.verdeelEi();
-        applePieRecipe.vetSpringvormIn();
-        applePieRecipe.verwarmOven();
-        applePieRecipe.deegRestant();
-
+        applePieRecipe.printSteps();
     }
 }

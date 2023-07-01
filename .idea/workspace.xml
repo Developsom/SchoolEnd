@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="282db46f-e465-4388-a5a9-a68805c54a6b" name="Changes" comment="Fix 1kilo1&#10;Must be 1,5 kilo">
+    <list default="true" id="282db46f-e465-4388-a5a9-a68805c54a6b" name="Changes" comment="Fixed paneermeel">
       <change beforePath="$PROJECT_DIR$/src/ObjectenEnKlassen/ApplePieRecipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectenEnKlassen/ApplePieRecipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectenEnKlassen/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectenEnKlassen/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectenEnKlassen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectenEnKlassen/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
       <updated>1688125564432</updated>
       <workItem from="1688125565701" duration="128000" />
       <workItem from="1688125726595" duration="1382000" />
-      <workItem from="1688133169540" duration="21712000" />
+      <workItem from="1688133169540" duration="22287000" />
     </task>
     <task id="LOCAL-00001" summary="Learning Switch statement">
       <created>1688143602326</created>
@@ -183,7 +183,28 @@
       <option name="project" value="LOCAL" />
       <updated>1688208072074</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fixed">
+      <created>1688208417893</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1688208417893</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Fixed getAmount to getName">
+      <created>1688208540067</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1688208540067</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Fixed paneermeel">
+      <created>1688208634378</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1688208634378</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +225,10 @@
     <MESSAGE value="Added Ingredient variables" />
     <MESSAGE value="printIngredient method" />
     <MESSAGE value="Fix 1kilo1&#10;Must be 1,5 kilo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix 1kilo1&#10;Must be 1,5 kilo" />
+    <MESSAGE value="Fixed" />
+    <MESSAGE value="Fixed getAmount to getName" />
+    <MESSAGE value="Fixed paneermeel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed paneermeel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

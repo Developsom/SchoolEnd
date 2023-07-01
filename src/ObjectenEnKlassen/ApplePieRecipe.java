@@ -23,6 +23,18 @@ public class ApplePieRecipe {
         System.out.println(paneermeel.getAmount() + paneermeel.getUnit() + paneermeel.getName());
         /// Voeg " " toe na elke + en verbind opnieuw aan volgende dmv + om spaties te creeren
     }
+    public void printSteps(){
+        appelsBereiden();
+        bakken();
+        bedekBodemEnRandMetDeeg();
+        appelsGebruik();
+        benutDeegRestant();
+        deegBereiden();
+        verdeelEi();
+        vetSpringvormIn();
+        verwarmOven();
+        deegRestant();
+    }
 
     public void verwarmOven(){
         System.out.println("Verwarm de oven van te voren op 170 graden Celsius (boven en onderwarmte)");
