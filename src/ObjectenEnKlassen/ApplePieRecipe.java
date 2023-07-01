@@ -20,7 +20,7 @@ public class ApplePieRecipe {
         System.out.println(salt.getAmount() + salt.getUnit() + salt.getName());
         System.out.println(apple.getAmount() + apple.getUnit() + apple.getName());
         System.out.println(crystalSugar.getAmount() + crystalSugar.getUnit() + crystalSugar.getName());
-        System.out.println(paneermeel.getAmount() + crystalSugar.getUnit() + crystalSugar.getName());
+        System.out.println(paneermeel.getAmount() + paneermeel.getUnit() + paneermeel.getName());
         /// Voeg " " toe na elke + en verbind opnieuw aan volgende dmv + om spaties te creeren
     }
 
