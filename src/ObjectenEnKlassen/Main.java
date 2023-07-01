@@ -1,8 +1,9 @@
 package ObjectenEnKlassen;
 
 public class Main {
-    private static ApplePieRecipe applePieRecipe;
     public static void main(String[] args) {
+
+        ApplePieRecipe applePieRecipe = new ApplePieRecipe();
         applePieRecipe.appelsBereiden();
         applePieRecipe.bakken();
         applePieRecipe.bedekBodemEnRandMetDeeg();
@@ -15,9 +16,5 @@ public class Main {
         applePieRecipe.deegRestant();
     }
 
-    public static void setApplePieRecipe(ApplePieRecipe applePieRecipe) {
-        Main.applePieRecipe = applePieRecipe;
-    }
 }
-
 //Continue from printing the methods
