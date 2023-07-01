@@ -1,5 +1,4 @@
 package CollectiesLussen;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -18,7 +17,7 @@ public class Main {
             System.out.println("Type 'x' om te stoppen \nType 'v' om te vertalen");
             String input = scanner.nextLine();
 
-            if(input == "x") {
+            if(input.equals("x")) {
                 play = false;
             } else if (input == "v") {
                 System.out.println("Type een cijfer in van 0 t/m 9");
