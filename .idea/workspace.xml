@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="282db46f-e465-4388-a5a9-a68805c54a6b" name="Changes" comment="//Continue from printing the methods">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="282db46f-e465-4388-a5a9-a68805c54a6b" name="Changes" comment="printIngredient method">
       <change beforePath="$PROJECT_DIR$/src/ObjectenEnKlassen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectenEnKlassen/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +68,7 @@
       <updated>1688125564432</updated>
       <workItem from="1688125565701" duration="128000" />
       <workItem from="1688125726595" duration="1382000" />
-      <workItem from="1688133169540" duration="16370000" />
+      <workItem from="1688133169540" duration="21325000" />
     </task>
     <task id="LOCAL-00001" summary="Learning Switch statement">
       <created>1688143602326</created>
@@ -141,7 +140,42 @@
       <option name="project" value="LOCAL" />
       <updated>1688161143430</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Goodmorning. Fixed print">
+      <created>1688200254878</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688200254878</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Removed guide liner from yesterday night">
+      <created>1688200488156</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688200488156</updated>
+    </task>
+    <task id="LOCAL-00013" summary="print all required ingredients">
+      <created>1688201800030</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1688201800030</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added Ingredient variables">
+      <created>1688206867553</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1688206867553</updated>
+    </task>
+    <task id="LOCAL-00015" summary="printIngredient method">
+      <created>1688207606636</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1688207606636</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +190,12 @@
     <MESSAGE value="Finished adding steps" />
     <MESSAGE value="Object into main" />
     <MESSAGE value="//Continue from printing the methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="//Continue from printing the methods" />
+    <MESSAGE value="Goodmorning. Fixed print" />
+    <MESSAGE value="Removed guide liner from yesterday night" />
+    <MESSAGE value="print all required ingredients" />
+    <MESSAGE value="Added Ingredient variables" />
+    <MESSAGE value="printIngredient method" />
+    <option name="LAST_COMMIT_MESSAGE" value="printIngredient method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

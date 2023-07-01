@@ -21,6 +21,7 @@ public class ApplePieRecipe {
         System.out.println(apple.getAmount() + apple.getUnit() + apple.getAmount());
         System.out.println(crystalSugar.getAmount() + crystalSugar.getUnit() + crystalSugar.getName());
         System.out.println(paneermeel.getAmount() + crystalSugar.getUnit() + crystalSugar.getName());
+        /// Voeg " " toe na elke + en verbind opnieuw aan volgende dmv + om spaties te creeren
     }
 
     public void verwarmOven(){
