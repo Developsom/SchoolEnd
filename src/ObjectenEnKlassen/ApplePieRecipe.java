@@ -7,7 +7,7 @@ public class ApplePieRecipe {
     Ingredient egg = new Ingredient(1, "stuk", "egg");
     Ingredient vanilleSugar = new Ingredient(8, "gram", "vanille suiker");
     Ingredient salt = new Ingredient(1, "snuf", "zout");
-    Ingredient apple = new Ingredient((int) 1.5, "kilo", "zoetzure appels" );
+    Ingredient apple = new Ingredient( 1.5, "kilo", "zoetzure appels" );
     Ingredient crystalSugar = new Ingredient(75, "gram", "suiker");
     Ingredient paneermeel = new Ingredient(15, "gram", "Paneermeel");
 
@@ -16,7 +16,7 @@ public class ApplePieRecipe {
         System.out.println(sugar.getAmount() + sugar.getUnit() + sugar.getName());
         System.out.println(bakmeel.getAmount() + bakmeel.getUnit() + bakmeel.getName());
         System.out.println(egg.getAmount() + egg.getUnit() + egg.getName());
-        System.out.println(vanilleSugar.getAmount() + egg.getUnit() + egg.getName());
+        System.out.println(vanilleSugar.getAmount() + vanilleSugar.getUnit() + vanilleSugar.getName());
         System.out.println(salt.getAmount() + salt.getUnit() + salt.getName());
         System.out.println(apple.getAmount() + apple.getUnit() + apple.getAmount());
         System.out.println(crystalSugar.getAmount() + crystalSugar.getUnit() + crystalSugar.getName());
