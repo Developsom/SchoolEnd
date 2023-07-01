@@ -19,7 +19,7 @@ public class Main {
 
             if(input.equals("x")) {
                 play = false;
-            } else if (input == "v") {
+            } else if (input.equals("v")) {
                 System.out.println("Type een cijfer in van 0 t/m 9");
                 int number = scanner.nextInt();
                 scanner.nextLine();

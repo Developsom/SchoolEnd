@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="282db46f-e465-4388-a5a9-a68805c54a6b" name="Changes" comment="Working on the while loop">
+    <list default="true" id="282db46f-e465-4388-a5a9-a68805c54a6b" name="Changes" comment="Fixed input.equals">
       <change beforePath="$PROJECT_DIR$/src/CollectiesLussen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectiesLussen/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +68,7 @@
       <updated>1688125564432</updated>
       <workItem from="1688125565701" duration="128000" />
       <workItem from="1688125726595" duration="1382000" />
-      <workItem from="1688133169540" duration="32380000" />
+      <workItem from="1688133169540" duration="33010000" />
     </task>
     <task id="LOCAL-00001" summary="Learning Switch statement">
       <created>1688143602326</created>
@@ -238,7 +238,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688239218781</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Have i finished assignment 3?">
+      <created>1688240170937</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1688240170937</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Fixed input.equals">
+      <created>1688240702526</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1688240702526</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +281,9 @@
     <MESSAGE value="Started assignment 3" />
     <MESSAGE value="Used chatgpt for&#10;return numericAlpha.get(number);" />
     <MESSAGE value="Working on the while loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on the while loop" />
+    <MESSAGE value="Have i finished assignment 3?" />
+    <MESSAGE value="Fixed input.equals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed input.equals" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
