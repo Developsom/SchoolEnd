@@ -2,10 +2,15 @@ package ObjectenEnKlassen;
 
 public class ApplePieRecipe {
     public void printIngredients() {
-        Ingredient ingredient = new Ingredient();
-        System.out.println(ingredient.getAmount() + " " + ingredient.getUnit() + " " + ingredient.getName());
-
-        //print all required ingredients
+        Ingredient butter = new Ingredient(200, "gram", "ongezouten boter");
+        Ingredient sugar = new Ingredient(200, "gram", "witte suiker");
+        Ingredient bakmeel = new Ingredient(400, "gram", "zelfrijzend bakmeel");
+        Ingredient egg = new Ingredient(1, "stuk", "egg");
+        Ingredient vanilleSugar = new Ingredient(8, "gram", "vanille suiker");
+        Ingredient salt = new Ingredient(1, "snuf", "zout");
+        Ingredient apple = new Ingredient((int) 1.5, "kilo", "zoetzure appels" );
+        Ingredient crystalSugar = new Ingredient(75, "gram", "suiker");
+        Ingredient paneermeel = new Ingredient(15, "gram", "Paneermeel");
     }
     public void verwarmOven(){
         System.out.println("Verwarm de oven van te voren op 170 graden Celsius (boven en onderwarmte)");
