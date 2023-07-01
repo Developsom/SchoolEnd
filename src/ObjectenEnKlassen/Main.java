@@ -2,7 +2,6 @@ package ObjectenEnKlassen;
 
 public class Main {
     public static void main(String[] args) {
-
         ApplePieRecipe applePieRecipe = new ApplePieRecipe();
         applePieRecipe.appelsBereiden();
         applePieRecipe.bakken();
@@ -15,6 +14,4 @@ public class Main {
         applePieRecipe.verwarmOven();
         applePieRecipe.deegRestant();
     }
-
 }
-//Continue from printing the methods
