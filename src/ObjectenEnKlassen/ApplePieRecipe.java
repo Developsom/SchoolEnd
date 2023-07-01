@@ -1,17 +1,28 @@
 package ObjectenEnKlassen;
 
 public class ApplePieRecipe {
+    Ingredient butter = new Ingredient(200, "gram", "ongezouten boter");
+    Ingredient sugar = new Ingredient(200, "gram", "witte suiker");
+    Ingredient bakmeel = new Ingredient(400, "gram", "zelfrijzend bakmeel");
+    Ingredient egg = new Ingredient(1, "stuk", "egg");
+    Ingredient vanilleSugar = new Ingredient(8, "gram", "vanille suiker");
+    Ingredient salt = new Ingredient(1, "snuf", "zout");
+    Ingredient apple = new Ingredient((int) 1.5, "kilo", "zoetzure appels" );
+    Ingredient crystalSugar = new Ingredient(75, "gram", "suiker");
+    Ingredient paneermeel = new Ingredient(15, "gram", "Paneermeel");
+
     public void printIngredients() {
-        Ingredient butter = new Ingredient(200, "gram", "ongezouten boter");
-        Ingredient sugar = new Ingredient(200, "gram", "witte suiker");
-        Ingredient bakmeel = new Ingredient(400, "gram", "zelfrijzend bakmeel");
-        Ingredient egg = new Ingredient(1, "stuk", "egg");
-        Ingredient vanilleSugar = new Ingredient(8, "gram", "vanille suiker");
-        Ingredient salt = new Ingredient(1, "snuf", "zout");
-        Ingredient apple = new Ingredient((int) 1.5, "kilo", "zoetzure appels" );
-        Ingredient crystalSugar = new Ingredient(75, "gram", "suiker");
-        Ingredient paneermeel = new Ingredient(15, "gram", "Paneermeel");
+        System.out.println(butter.getAmount() + butter.getUnit() + butter.getName());
+        System.out.println(sugar.getAmount() + sugar.getUnit() + sugar.getName());
+        System.out.println(bakmeel.getAmount() + bakmeel.getUnit() + bakmeel.getName());
+        System.out.println(egg.getAmount() + egg.getUnit() + egg.getName());
+        System.out.println(vanilleSugar.getAmount() + egg.getUnit() + egg.getName());
+        System.out.println(salt.getAmount() + salt.getUnit() + salt.getName());
+        System.out.println(apple.getAmount() + apple.getUnit() + apple.getAmount());
+        System.out.println(crystalSugar.getAmount() + crystalSugar.getUnit() + crystalSugar.getName());
+        System.out.println(paneermeel.getAmount() + crystalSugar.getUnit() + crystalSugar.getName());
     }
+
     public void verwarmOven(){
         System.out.println("Verwarm de oven van te voren op 170 graden Celsius (boven en onderwarmte)");
     }
