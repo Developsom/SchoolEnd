@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="282db46f-e465-4388-a5a9-a68805c54a6b" name="Changes" comment="Fixed paneermeel">
-      <change beforePath="$PROJECT_DIR$/src/ObjectenEnKlassen/ApplePieRecipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectenEnKlassen/ApplePieRecipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectenEnKlassen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectenEnKlassen/Main.java" afterDir="false" />
+    <list default="true" id="282db46f-e465-4388-a5a9-a68805c54a6b" name="Changes" comment="Working on the while loop">
+      <change beforePath="$PROJECT_DIR$/src/CollectiesLussen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectiesLussen/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <updated>1688125564432</updated>
       <workItem from="1688125565701" duration="128000" />
       <workItem from="1688125726595" duration="1382000" />
-      <workItem from="1688133169540" duration="22287000" />
+      <workItem from="1688133169540" duration="32380000" />
     </task>
     <task id="LOCAL-00001" summary="Learning Switch statement">
       <created>1688143602326</created>
@@ -204,7 +203,42 @@
       <option name="project" value="LOCAL" />
       <updated>1688208634378</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Moved individual steps to ApplePieRecipe and created a new void containing all the steps. Then i called upon the printSteps inside the main">
+      <created>1688209016296</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1688209016296</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fixed space">
+      <created>1688209033687</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1688209033687</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Started assignment 3">
+      <created>1688213930145</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1688213930145</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Used chatgpt for&#10;return numericAlpha.get(number);">
+      <created>1688238444755</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1688238444755</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Working on the while loop">
+      <created>1688239218781</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1688239218781</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +262,12 @@
     <MESSAGE value="Fixed" />
     <MESSAGE value="Fixed getAmount to getName" />
     <MESSAGE value="Fixed paneermeel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed paneermeel" />
+    <MESSAGE value="Moved individual steps to ApplePieRecipe and created a new void containing all the steps. Then i called upon the printSteps inside the main" />
+    <MESSAGE value="Fixed space" />
+    <MESSAGE value="Started assignment 3" />
+    <MESSAGE value="Used chatgpt for&#10;return numericAlpha.get(number);" />
+    <MESSAGE value="Working on the while loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on the while loop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
