@@ -11,7 +11,12 @@ public class PokemonPkBotBeta {
         escape.checkRunEnergy();
         //Lines will turn orange now. Dont worry
         escape.getFood();
-        esc
+        escape.setFood(1);
+
+        escape.getRunEnergy();
+        escape.setRunEnergy(1);
+
+        //Getters need more logic
         
     }
 }
