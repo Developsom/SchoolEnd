@@ -13,7 +13,7 @@ public class PokemonPkBotBeta {
 
 
 //Voer in de main methode verschillende methodes uit van verschillende Pokemons, uit zowel de subklassen als uit de super klasse.
-//TODO ^^^^^^^^^^^^^^^^^^
+//TODO ^^^^^^^^^^^^^^^^^^Push
 
 
 
