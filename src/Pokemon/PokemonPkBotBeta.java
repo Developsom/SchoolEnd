@@ -6,6 +6,8 @@ public class PokemonPkBotBeta {
         Player player = new Player(99, 99, 99, 71);
         PlayerStats playerStats = new PlayerStats(54, 2, 90, 25);
         SitDown sitDown = new SitDown(11, 32, true, 32);
+
+        
     }
 }
 
