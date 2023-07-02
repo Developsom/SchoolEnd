@@ -17,7 +17,15 @@ public class PokemonPkBotBeta {
         escape.setRunEnergy(1);
 
         //Getters need more logic
-        
+
+        player.checkStrength();
+        player.checkXpCounter();
+
+        player.getStrength();
+        player.setStrength(1);
+
+        player.getXpCounter();
+        player.setXpCounter(55); // If xp counter >= 55 && player.gethp(< = 32){ KoPotential = true;}
     }
 }
 
