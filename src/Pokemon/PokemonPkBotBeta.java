@@ -12,7 +12,9 @@ public class PokemonPkBotBeta {
 }
 
 
-
+//Went back 4 commits. Messed up by 'Result of 'Player.getStrength()' is ignored'
+// As a lack of focus i reverted all to void instead of int
+// Ignore Result of 'Player.getStrength()' is ignored and implement later
 
 //Voer in de main methode verschillende methodes uit van verschillende Pokemons, uit zowel de subklassen als uit de super klasse.
 //TODO ^^^^^^^^^^^^^^^^^^Push
