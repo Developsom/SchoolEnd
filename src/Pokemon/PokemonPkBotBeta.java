@@ -7,6 +7,11 @@ public class PokemonPkBotBeta {
         PlayerStats playerStats = new PlayerStats(54, 2, 90, 25);
         SitDown sitDown = new SitDown(11, 32, true, 32);
 
+        escape.checkFood();
+        escape.checkRunEnergy();
+        //Lines will turn orange now. Dont worry
+        escape.getFood();
+        esc
         
     }
 }
