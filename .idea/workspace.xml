@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="282db46f-e465-4388-a5a9-a68805c54a6b" name="Changes" comment="Fixed input.equals">
-      <change beforePath="$PROJECT_DIR$/src/CollectiesLussen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectiesLussen/Main.java" afterDir="false" />
+    <list default="true" id="282db46f-e465-4388-a5a9-a68805c54a6b" name="Changes" comment="Fixed isKoPot to getKoPot">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pokemon/PokemonPkBotBeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pokemon/PokemonPkBotBeta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,29 +31,31 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2RvLMyJnWPJHfG3Q9Y4CWAxLdQ1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -252,17 +256,59 @@
       <option name="project" value="LOCAL" />
       <updated>1688240702526</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="@!Read guideliner#!&#10;//Went back 4 commits. Messed up by 'Result of 'Player.getStrength()' is ignored'&#10;// As a lack of focus i reverted all to void instead of int&#10;// Ignore Result of 'Player.getStrength()' is ignored and implement later">
+      <created>1688301575122</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1688301575123</updated>
+    </task>
+    <task id="LOCAL-00028" summary="@!Read guideliner#!&#10;        //Lines will turn orange now. Dont worry">
+      <created>1688301805830</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1688301805830</updated>
+    </task>
+    <task id="LOCAL-00029" summary="//Getters need more logic">
+      <created>1688301886809</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1688301886809</updated>
+    </task>
+    <task id="LOCAL-00030" summary="// If xp counter &gt;= 55 &amp;&amp; player.gethp(&lt; = 32){ KoPotential = true;}">
+      <created>1688302170676</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1688302170676</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Fixed isKoPot to getKoPot">
+      <created>1688302826907</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1688302826907</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Learning Switch statement" />
-    <MESSAGE value="Almost finished&#10;Filling variable values now" />
-    <MESSAGE value="Last touches" />
-    <MESSAGE value="Finished" />
     <MESSAGE value="Added step" />
     <MESSAGE value="Finished adding steps" />
     <MESSAGE value="Object into main" />
@@ -283,7 +329,12 @@
     <MESSAGE value="Working on the while loop" />
     <MESSAGE value="Have i finished assignment 3?" />
     <MESSAGE value="Fixed input.equals" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed input.equals" />
+    <MESSAGE value="@!Read guideliner#!&#10;//Went back 4 commits. Messed up by 'Result of 'Player.getStrength()' is ignored'&#10;// As a lack of focus i reverted all to void instead of int&#10;// Ignore Result of 'Player.getStrength()' is ignored and implement later" />
+    <MESSAGE value="@!Read guideliner#!&#10;        //Lines will turn orange now. Dont worry" />
+    <MESSAGE value="//Getters need more logic" />
+    <MESSAGE value="// If xp counter &gt;= 55 &amp;&amp; player.gethp(&lt; = 32){ KoPotential = true;}" />
+    <MESSAGE value="Fixed isKoPot to getKoPot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed isKoPot to getKoPot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

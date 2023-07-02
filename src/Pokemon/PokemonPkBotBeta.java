@@ -11,10 +11,10 @@ public class PokemonPkBotBeta {
         escape.checkFood();
         escape.checkRunEnergy();  //Lines will turn orange now. Dont worry >>>
 
-        escape.getFood();
+        System.out.println("Escape Food: " + escape.getFood());
         escape.setFood(1);
 
-        escape.getRunEnergy(); //       <<<<  Getters need more logic
+        System.out.println("Escape Run Energy: " + escape.getRunEnergy()); //       <<<<  Getters need more logic
         escape.setRunEnergy(1);
 
 
@@ -23,10 +23,10 @@ public class PokemonPkBotBeta {
         player.checkStrength();
         player.checkXpCounter();
 
-        player.getStrength();
+        System.out.println("Player Strength: " + player.getStrength());
         player.setStrength(1);
 
-        player.getXpCounter();
+        System.out.println("Player XP Counter: " + player.getXpCounter());
         player.setXpCounter(55); // If xp counter >= 55 && player.gethp(< = 32){ KoPotential = true;}
 
 
@@ -34,34 +34,40 @@ public class PokemonPkBotBeta {
         playerStats.checkStengthLevel();
         playerStats.checkSpecialAttack();
 
-        playerStats.getStrengthLevel();
+        System.out.println("PlayerStats Strength Level: " + playerStats.getStrengthLevel());
         playerStats.setStrengthLevel(99);
 
-        playerStats.getSpecialAttack();
+        System.out.println("PlayerStats Special Attack: " + playerStats.getSpecialAttack());
         playerStats.setSpecialAttack(100);
 
 
         sitDown.checkKoPotential();
         sitDown.checkMaxhit();
 
-        sitDown.getKoPotential();
+        System.out.println("SitDown Ko Potential: " + sitDown.getKoPotential());
         sitDown.setKoPotential(true);
 
-        sitDown.getMaxHit();
+        System.out.println("SitDown Max Hit: " + sitDown.getMaxHit());
         sitDown.setMaxHit(32);
 
         }
 
     }
-}
+
+
+
+//@@@@@
+//Deze methodes mogen void teruggeven en een system.out.println uitvoeren.
+///finish
+//Voer in de main methode verschillende methodes uit van verschillende Pokemons, uit zowel de subklassen als uit de super klasse.
+//TODO ^^^^^^^^^^^^^^^^^^Push
+
 
 
 //Went back 4 commits. Messed up by 'Result of 'Player.getStrength()' is ignored'
 // As a lack of focus i reverted all to void instead of int
 // Ignore Result of 'Player.getStrength()' is ignored and implement later
 
-//Voer in de main methode verschillende methodes uit van verschillende Pokemons, uit zowel de subklassen als uit de super klasse.
-//TODO ^^^^^^^^^^^^^^^^^^Push
 
 
 
