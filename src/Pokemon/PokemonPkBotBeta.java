@@ -8,7 +8,9 @@ public class PokemonPkBotBeta {
 
 
 
-
+//Instantieer in de main methode jouw 4 verschillende Pokèmon => PkBotAttributen met de verschillende attributen.
+//
+//Voer in de main methode verschillende methodes uit van verschillende Pokemons, uit zowel de subklassen als uit de super klasse.
 
 
 //Een Super klasse = setup Abstract base
