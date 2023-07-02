@@ -9,4 +9,13 @@ public class Pokemon {
 
     public String getType() {
     }
+
+    public Object getLevel() {
+    }
+
+    public Object getFood() {
+    }
+
+    public Object getSound() {
+    }
 }

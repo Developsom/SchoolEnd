@@ -18,4 +18,10 @@ public interface PokemonGym {
     int randomAttackByGymOwner();
 
     String chooseAttackPlayer(Pokemon p);
+
+    void performAttackPlayer(Pokemon pokemon, Pokemon gymPokemon, String attack);
+
+    void gymOwnerAttacks(Pokemon gymPokemon, Pokemon pokemon);
+
+    void attackOrChange(Pokemon pokemon, Pokemon gymPokemon, PokemonTrainer trainer, PokemonGymOwner gym);
 }
