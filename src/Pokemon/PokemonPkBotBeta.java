@@ -2,17 +2,24 @@ package Pokemon;
 
 public class PokemonPkBotBeta {
     public static void main(String[] args) {
-
+        Escape escape = new Escape(23, 25, 2, 70);
+        Player player = new Player(99, 99, 99, 71);
+        PlayerStats playerStats = new PlayerStats(54, 2, 90, 25);
+        SitDown sitDown = new SitDown(11, 32, true, 32);
     }
 }
 
 
 
+
+//Voer in de main methode verschillende methodes uit van verschillende Pokemons, uit zowel de subklassen als uit de super klasse.
+//TODO ^^^^^^^^^^^^^^^^^^
+
+
+
+
 //Instantieer in de main methode jouw 4 verschillende Pokèmon => PkBotAttributen met de verschillende attributen.
 //
-//Voer in de main methode verschillende methodes uit van verschillende Pokemons, uit zowel de subklassen als uit de super klasse.
-
-
 //Een Super klasse = setup Abstract base
 // minimaal 2 private variabelen = private int hp, private int prayer
 // 1 constructor = Instantieer met parameters
