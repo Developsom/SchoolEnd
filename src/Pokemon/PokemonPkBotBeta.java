@@ -7,16 +7,18 @@ public class PokemonPkBotBeta {
         PlayerStats playerStats = new PlayerStats(54, 2, 90, 25);
         SitDown sitDown = new SitDown(11, 32, true, 32);
 
+
         escape.checkFood();
-        escape.checkRunEnergy();
-        //Lines will turn orange now. Dont worry
+        escape.checkRunEnergy();  //Lines will turn orange now. Dont worry >>>
+
         escape.getFood();
         escape.setFood(1);
 
-        escape.getRunEnergy();
+        escape.getRunEnergy(); //       <<<<  Getters need more logic
         escape.setRunEnergy(1);
 
-        //Getters need more logic
+
+
 
         player.checkStrength();
         player.checkXpCounter();
@@ -26,6 +28,30 @@ public class PokemonPkBotBeta {
 
         player.getXpCounter();
         player.setXpCounter(55); // If xp counter >= 55 && player.gethp(< = 32){ KoPotential = true;}
+
+
+
+        playerStats.checkStengthLevel();
+        playerStats.checkSpecialAttack();
+
+        playerStats.getStrengthLevel();
+        playerStats.setStrengthLevel(99);
+
+        playerStats.getSpecialAttack();
+        playerStats.setSpecialAttack(100);
+
+
+        sitDown.checkKoPotential();
+        sitDown.checkMaxhit();
+
+        sitDown.getKoPotential();
+        sitDown.setKoPotential(true);
+
+        sitDown.getMaxHit();
+        sitDown.setMaxHit(32);
+
+        }
+
     }
 }
 

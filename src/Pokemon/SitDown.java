@@ -29,7 +29,7 @@ public class SitDown extends PkBot {
 
     }
 
-    public boolean isKoPotential() {
+    public boolean getKoPotential() {
         return KoPotential;
     }
 
