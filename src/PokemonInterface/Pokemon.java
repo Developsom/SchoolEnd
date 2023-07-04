@@ -10,3 +10,4 @@ abstract public class Pokemon {
 
 }
 //check
+// i dont want to move to fast and endup restarting the project for a second time
