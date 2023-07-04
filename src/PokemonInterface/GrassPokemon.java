@@ -5,15 +5,15 @@ public class GrassPokemon extends Pokemon{
         super(name, lvl, hp, food, sound);
     }
 
-    public void leafStorm(Pokemon pokemon, Pokemon gymPokemon) {
+    void leafStorm(Pokemon pokemon, Pokemon gymPokemon) {
     }
 
-    public void solarBeam(Pokemon pokemon, Pokemon gymPokemon) {
+    void solarBeam(Pokemon pokemon, Pokemon gymPokemon) {
     }
 
-    public void leechSeed(Pokemon pokemon, Pokemon gymPokemon) {
+    void leechSeed(Pokemon pokemon, Pokemon gymPokemon) {
     }
 
-    public void leaveBlade(Pokemon pokemon, Pokemon gymPokemon) {
+    void leaveBlade(Pokemon pokemon, Pokemon gymPokemon) {
     }
 }
