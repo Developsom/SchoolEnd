@@ -1,5 +1,7 @@
 package PokemonInterface;
 
+import java.util.List;
+
 abstract public class Pokemon {
     String name;
     int lvl;
@@ -8,6 +10,7 @@ abstract public class Pokemon {
     String sound;
 
     String type;
+    List<String> attacks;
 
     public Pokemon(String name, int lvl, int hp, String food, String sound) {
         this.name = name;
@@ -27,6 +30,10 @@ abstract public class Pokemon {
 
     public String getType() {
         return type;
+    }
+
+    List<String> getAttacks() {
+        return attacks;  ///Resolved System.out.println(fp.getAttacks() and more
     }
 }
 
