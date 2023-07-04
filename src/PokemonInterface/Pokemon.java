@@ -8,3 +8,4 @@ abstract public class Pokemon {
     String type;
 
 }
+//check
