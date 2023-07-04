@@ -1,5 +1,4 @@
 package PokemonInterface;
-
 import java.util.Arrays;
 import java.util.List;
 
@@ -13,10 +12,10 @@ public class Variabelen {
 
     /*deze variabelen komen eenmaal voor*/
     List<Pokemon> pokemons;
-    int level;
-    int hp;
-    food;/*""*/
-    sound;/*""*/
+    //int level;        //Used in Pokemon
+    //int hp;        //Used in Pokemon
+    //food;/*""*/    //Used in Pokemon
+   // sound;/*""*/     //Used in Pokemon
     town;/*""*/
 
 }
