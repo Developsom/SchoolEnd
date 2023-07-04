@@ -6,8 +6,8 @@ abstract public class Pokemon {
     int hp;
     String food;
     String sound;
-    String type;
 
 }
 //check
 // i dont want to move to fast and endup restarting the project for a second time
+// Removed type from Pokemon because in the main it does not fill a type-argument
