@@ -6,6 +6,8 @@ import java.util.List;
 public class PokemonGymOwner {
         String name;
         String town;
+        List<Pokemon> pokemons;
+
 
 
         public PokemonGymOwner(String name, String town, List<Pokemon> pokemons) {
@@ -19,4 +21,7 @@ public class PokemonGymOwner {
         return town;
     }
 
+    public List<Pokemon> getPokemons() {
+        return pokemons;
+    }
 }

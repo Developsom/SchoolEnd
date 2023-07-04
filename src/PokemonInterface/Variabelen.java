@@ -6,7 +6,8 @@ import java.util.List;
 // In deze klasse staan een aantal variabelen die in meerdere klassen voorkomen en een aantal variabelen die slechts één keer gebruikt kunnen worden.
 public class Variabelen {
     /*deze komen meerdere keren voor*/
-    type;/*""*/ // Used in Pokemon // // Removed type from Pokemon because in the main it does not fill a type-argument
+    //type;/*""*/ // Used in Pokemon // // Removed type from Pokemon because in the main it does not fill a type-argument
+    // Added type again because its used a a method in PokemonGymImpl
 
     List<String> attacks = Arrays.asList(/*voer de aanvallen hier in*/);
     //name;/*""*/  //Used in Pokemon
