@@ -4,6 +4,7 @@ abstract public class Pokemon {
     String name;
     int lvl;
     int hp;
+    String food;
     String sound;
     String type;
 
