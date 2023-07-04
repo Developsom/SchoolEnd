@@ -79,7 +79,7 @@ public class PokemonGymImpl implements PokemonGym {
     public Pokemon chooseGymPokemon(PokemonGymOwner gymOwner){
         Random rand = new Random();
         List<Pokemon> pokemons = new ArrayList<>();
-        for (Pokemon p : gymOwner.getPokemons()) {
+        for (Pokemon p : gymOwner.getPokemons()) { //Om de terminal run error op te lossen moet ik ergens een list string constructor van pokemons constructor tot leven... ik weet zeker dat ik het kan oplossen maar de clue van deze les heb ikbegrepen en daarom ga ik door met de volgende les.
             if(p.getHp() > 0 ){
                 pokemons.add(p);
             }
