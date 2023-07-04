@@ -35,6 +35,18 @@ abstract public class Pokemon {
     List<String> getAttacks() {
         return attacks;  ///Resolved System.out.println(fp.getAttacks() and more
     }
+
+    public int getLevel() {
+        return lvl;
+    }
+
+    public String getFood() {
+        return food;
+    }
+
+    public String getSound() {
+        return sound;
+    }
 }
 
 
