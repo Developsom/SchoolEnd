@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="282db46f-e465-4388-a5a9-a68805c54a6b" name="Changes" comment="Fixed isKoPot to getKoPot">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pokemon/PokemonPkBotBeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pokemon/PokemonPkBotBeta.java" afterDir="false" />
+    <list default="true" id="282db46f-e465-4388-a5a9-a68805c54a6b" name="Changes" comment="Added attack namea">
+      <change beforePath="$PROJECT_DIR$/src/PokemonInterface/Variabelen.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,9 +57,15 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="PokemonInterface" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="PokemonInterface" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -73,90 +79,6 @@
       <workItem from="1688125565701" duration="128000" />
       <workItem from="1688125726595" duration="1382000" />
       <workItem from="1688133169540" duration="33010000" />
-    </task>
-    <task id="LOCAL-00001" summary="Learning Switch statement">
-      <created>1688143602326</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1688143602326</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Almost finished&#10;Filling variable values now">
-      <created>1688150006706</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1688150006706</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Last touches">
-      <created>1688151706644</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1688151706644</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Finished">
-      <created>1688152260700</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1688152260701</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Finished">
-      <created>1688152274806</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1688152274806</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added step">
-      <created>1688156424948</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1688156424948</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Added step">
-      <created>1688156502404</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1688156502404</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Finished adding steps">
-      <created>1688157088662</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1688157088662</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Object into main">
-      <created>1688159038506</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1688159038506</updated>
-    </task>
-    <task id="LOCAL-00010" summary="//Continue from printing the methods">
-      <created>1688161143430</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1688161143430</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Goodmorning. Fixed print">
-      <created>1688200254878</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1688200254878</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Removed guide liner from yesterday night">
-      <created>1688200488156</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1688200488156</updated>
     </task>
     <task id="LOCAL-00013" summary="print all required ingredients">
       <created>1688201800030</created>
@@ -291,7 +213,217 @@
       <option name="project" value="LOCAL" />
       <updated>1688302826907</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Finished Opdr 4 under condition:&#10;'&#10;//Deze methodes mogen void teruggeven en een system.out.println uitvoeren.&#10;&#10;'">
+      <created>1688303707336</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1688303707336</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Updated README.md">
+      <created>1688321547966</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1688321547966</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Copy pasted all classes">
+      <created>1688321819104</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1688321819104</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Trying to understand the assignment">
+      <created>1688327073201</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1688327073202</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Solved some">
+      <created>1688329176292</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1688329176292</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Partially solved">
+      <created>1688329723135</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1688329723135</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Ok.. lets add some structure">
+      <created>1688330088211</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1688330088211</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Restart / Keep interface">
+      <created>1688331362589</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1688331362589</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Added start files">
+      <created>1688331535857</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1688331535857</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Used some variables">
+      <created>1688429503164</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1688429503164</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Enough variables to call pokemonTypes alive?">
+      <created>1688429632767</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1688429632767</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Added food">
+      <created>1688429695244</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1688429695245</updated>
+    </task>
+    <task id="LOCAL-00044" summary="/*&quot;&quot;*/ means String">
+      <created>1688429890551</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1688429890551</updated>
+    </task>
+    <task id="LOCAL-00045" summary="@Guideliner">
+      <created>1688430220878</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1688430220879</updated>
+    </task>
+    <task id="LOCAL-00046" summary="// Removed type from Pokemon because in the main it does not fill a type-argument">
+      <created>1688430426104</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1688430426104</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Succesfully created 1 abstract super and 4 subs">
+      <created>1688430932887</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1688430932887</updated>
+    </task>
+    <task id="LOCAL-00048" summary="dataType: Pokemon, paramenter: /////enemy&lt;&lt;&lt;[ ? ]">
+      <created>1688431080090</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1688431080090</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Progress">
+      <created>1688432370559</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1688432370560</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Resolved, added getter&#10;gymPokemon.getName()">
+      <created>1688433186975</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1688433186983</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Resolved, added getter&#10;trainer.getPokemons()">
+      <created>1688433316583</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1688433316583</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Resolved, added getter&#10;(pokemon.getHp() &gt; 0 &amp;&amp; gymPokemon.getHp() &gt; 0)">
+      <created>1688433595787</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1688433595788</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Resolved&#10;// Added type again because its used a a method in PokemonGymImpl">
+      <created>1688433911238</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1688433911238</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Reached attacks">
+      <created>1688433973936</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1688433973937</updated>
+    </task>
+    <task id="LOCAL-00055" summary="@Guideliner">
+      <created>1688434516830</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1688434516830</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Resolved &#10;System.out.println(fp.getAttacks()">
+      <created>1688470722375</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1688470722376</updated>
+    </task>
+    <task id="LOCAL-00057" summary="FirePokemon attacks">
+      <created>1688471184028</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1688471184029</updated>
+    </task>
+    <task id="LOCAL-00058" summary="allPokemon attacks">
+      <created>1688471293760</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1688471293762</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Clear file">
+      <created>1688471393563</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1688471393564</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Removed last publics">
+      <created>1688471424789</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1688471424789</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Added attack namea">
+      <created>1688472109016</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1688472109016</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,32 +441,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added step" />
-    <MESSAGE value="Finished adding steps" />
-    <MESSAGE value="Object into main" />
-    <MESSAGE value="//Continue from printing the methods" />
-    <MESSAGE value="Goodmorning. Fixed print" />
-    <MESSAGE value="Removed guide liner from yesterday night" />
-    <MESSAGE value="print all required ingredients" />
-    <MESSAGE value="Added Ingredient variables" />
-    <MESSAGE value="printIngredient method" />
-    <MESSAGE value="Fix 1kilo1&#10;Must be 1,5 kilo" />
-    <MESSAGE value="Fixed" />
-    <MESSAGE value="Fixed getAmount to getName" />
-    <MESSAGE value="Fixed paneermeel" />
-    <MESSAGE value="Moved individual steps to ApplePieRecipe and created a new void containing all the steps. Then i called upon the printSteps inside the main" />
-    <MESSAGE value="Fixed space" />
-    <MESSAGE value="Started assignment 3" />
-    <MESSAGE value="Used chatgpt for&#10;return numericAlpha.get(number);" />
-    <MESSAGE value="Working on the while loop" />
-    <MESSAGE value="Have i finished assignment 3?" />
-    <MESSAGE value="Fixed input.equals" />
-    <MESSAGE value="@!Read guideliner#!&#10;//Went back 4 commits. Messed up by 'Result of 'Player.getStrength()' is ignored'&#10;// As a lack of focus i reverted all to void instead of int&#10;// Ignore Result of 'Player.getStrength()' is ignored and implement later" />
-    <MESSAGE value="@!Read guideliner#!&#10;        //Lines will turn orange now. Dont worry" />
-    <MESSAGE value="//Getters need more logic" />
-    <MESSAGE value="// If xp counter &gt;= 55 &amp;&amp; player.gethp(&lt; = 32){ KoPotential = true;}" />
-    <MESSAGE value="Fixed isKoPot to getKoPot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed isKoPot to getKoPot" />
+    <MESSAGE value="Solved some" />
+    <MESSAGE value="Partially solved" />
+    <MESSAGE value="Ok.. lets add some structure" />
+    <MESSAGE value="Restart / Keep interface" />
+    <MESSAGE value="Added start files" />
+    <MESSAGE value="Used some variables" />
+    <MESSAGE value="Enough variables to call pokemonTypes alive?" />
+    <MESSAGE value="Added food" />
+    <MESSAGE value="/*&quot;&quot;*/ means String" />
+    <MESSAGE value="// Removed type from Pokemon because in the main it does not fill a type-argument" />
+    <MESSAGE value="Succesfully created 1 abstract super and 4 subs" />
+    <MESSAGE value="dataType: Pokemon, paramenter: /////enemy&lt;&lt;&lt;[ ? ]" />
+    <MESSAGE value="Progress" />
+    <MESSAGE value="Resolved, added getter&#10;gymPokemon.getName()" />
+    <MESSAGE value="Resolved, added getter&#10;trainer.getPokemons()" />
+    <MESSAGE value="Resolved, added getter&#10;(pokemon.getHp() &gt; 0 &amp;&amp; gymPokemon.getHp() &gt; 0)" />
+    <MESSAGE value="Resolved&#10;// Added type again because its used a a method in PokemonGymImpl" />
+    <MESSAGE value="Reached attacks" />
+    <MESSAGE value="@Guideliner" />
+    <MESSAGE value="Resolved &#10;System.out.println(fp.getAttacks()" />
+    <MESSAGE value="FirePokemon attacks" />
+    <MESSAGE value="allPokemon attacks" />
+    <MESSAGE value="Clear file" />
+    <MESSAGE value="Removed last publics" />
+    <MESSAGE value="Added attack namea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added attack namea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
