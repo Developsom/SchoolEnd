@@ -3,7 +3,12 @@ package PokemonInterface;
 import java.util.List;
 
 public class PokemonTrainer {
-    public PokemonTrainer(String userA, List<Pokemon> pokemons) {
+    String name;
+
+    public PokemonTrainer(String name, List<Pokemon> pokemons) {}
+
+    public String getName() {
+        return name;
     }
 }
 

@@ -14,6 +14,10 @@ abstract public class Pokemon {
         this.food = food;
         this.sound = sound;
     }
+
+    public String getName() {
+        return name;
+    } // this Getter should resolve gymPokemon.getName()
 }
 //check
 // i dont want to move to fast and endup restarting the project for a second time
