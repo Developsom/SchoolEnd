@@ -6,15 +6,15 @@ public class ElectricPokemon extends Pokemon{
         super(name, lvl, hp, food, sound);
     }
 
-    public void thunderPunch(Pokemon pokemon, Pokemon gymPokemon) {
+    void thunderPunch(Pokemon pokemon, Pokemon gymPokemon) {
     }
 
-    public void electroBall(Pokemon pokemon, Pokemon gymPokemon) {
+    void electroBall(Pokemon pokemon, Pokemon gymPokemon) {
     }
 
-    public void thunder(Pokemon pokemon, Pokemon gymPokemon) {
+    void thunder(Pokemon pokemon, Pokemon gymPokemon) {
     }
 
-    public void voltTackle(Pokemon pokemon, Pokemon gymPokemon) {
+    void voltTackle(Pokemon pokemon, Pokemon gymPokemon) {
     }
 }
