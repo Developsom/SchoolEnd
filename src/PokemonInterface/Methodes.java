@@ -8,7 +8,7 @@ public class Methodes {
 
     /*deze methode komt op meerdere plaatsen terug*/
     List<String> getAttacks() {
-        return attacks;
+        return attacks;  ///Something to do with this... implement as a datatypetype somewhere in the super abstract
     }
 
 

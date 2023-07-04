@@ -124,7 +124,7 @@ public class PokemonGymImpl implements PokemonGym {
             case "fire" -> {
                 FirePokemon fp = (FirePokemon) p;
                 System.out.println("Choose your attack");
-                System.out.println(fp.getAttacks());
+                System.out.println(fp.getAttacks()); //Hmm.....
                 return speler_A.nextLine();
             }
             case "water" -> {
