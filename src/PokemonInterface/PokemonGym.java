@@ -9,7 +9,7 @@ public interface PokemonGym {
 
     Pokemon selectPokemon(String pokemon, PokemonTrainer trainer);
 
-    void fightRound(PokemonTrainer trainer, PokemonGymOwner owner, Pokemon pokemon, Pokemon gymPokemon);
+    void fightRound(PokemonTrainer trainer, PokemonGymOwner owner, Pokemon pokemon, Pokemon gymPokemon); //Created PokemonGymOwner based on this datatype
 
     Pokemon chooseGymPokemon(PokemonGymOwner gymOwner);
 

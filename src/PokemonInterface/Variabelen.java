@@ -12,11 +12,11 @@ public class Variabelen {
     //name;/*""*/  //Used in Pokemon
 
     /*deze variabelen komen eenmaal voor*/
-    List<Pokemon> pokemons;
+    //List<Pokemon> pokemons;//Used in PokGymOwnr
     //int level;        //Used in Pokemon
     //int hp;        //Used in Pokemon
     //food;/*""*/    //Used in Pokemon
    // sound;/*""*/     //Used in Pokemon
-    town;/*""*/
+    //town;/*""*/ //Used in PokGymOwnr
 
 }
