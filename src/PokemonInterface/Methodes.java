@@ -14,7 +14,7 @@ public class Methodes {
 
 
     /*De volgende 16 methodes zijn aanvallen*/
-    void surf(Pokemon name, Pokemon enemy);
+    void surf(Pokemon name, Pokemon enemy); // datatype:Pokemon parameter: name, dataType: Pokemon, paramenter: /////enemy<<<[ ? ]
 
     void fireLash(Pokemon name, Pokemon enemy);
 
