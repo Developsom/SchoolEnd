@@ -26,6 +26,7 @@ abstract public class Pokemon {
     } // Resolve for (pokemon.getHp() > 0 && gymPokemon.getHp() > 0)
 
     public String getType() {
+        return type;
     }
 }
 
