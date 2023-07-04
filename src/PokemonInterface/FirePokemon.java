@@ -1,9 +1,17 @@
 package PokemonInterface;
 
+import java.util.Arrays;
+
 public class FirePokemon extends Pokemon{
 
     public FirePokemon(String name, int lvl, int hp, String food, String sound) {
         super(name, lvl, hp, food, sound);
+        this.attacks = Arrays.asList(
+                "Inferno",
+                "Pyro Ball",
+                "Flame Thrower",
+                "Fire Lash"
+        );
     }
 
     void inferno(Pokemon pokemon, Pokemon gymPokemon) {
