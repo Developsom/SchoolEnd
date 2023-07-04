@@ -7,6 +7,7 @@ public class PokemonGymOwner {
         String name;
         String town;
 
+
         public PokemonGymOwner(String name, String town, List<Pokemon> pokemons) {
         }
 
@@ -17,4 +18,5 @@ public class PokemonGymOwner {
     public String getTown() {
         return town;
     }
+
 }
