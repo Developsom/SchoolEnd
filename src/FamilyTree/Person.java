@@ -6,3 +6,5 @@ public class Person{
         }
 //Start with required classes
 //Finished required classes
+
+//Implement attributes
