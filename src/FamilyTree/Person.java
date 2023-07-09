@@ -11,10 +11,23 @@ public class Person {
         String mother;
         String father;
 
+
         List<String> siblings;
         List<String> children;
         List<String> pets; //Took a while to remember how to instance a List
+
         HashMap<String, String> addParent; // That took even longer
+        HashMap<String, String> addChild;
+        HashMap<String, String> addPet;
+        HashMap<String, String> addSibling;
+        HashMap<String, String> addGrandChildren;
+
+
+
+
+
+
+
 
         public Person(String name, String lastName, String sex, String age) {
                 this.name = name;
@@ -30,6 +43,17 @@ public class Person {
                 this.sex = sex;
                 this.age = age;
         }
+
+        public Person(HashMap<String, String> addParent, HashMap<String, String> addChild, HashMap<String, String> addPet, HashMap<String, String> addSibling, HashMap<String, String> addGrandChildren) {
+                this.addParent = addParent;
+                this.addChild = addChild;
+                this.addPet = addPet;
+                this.addSibling = addSibling;
+                this.addGrandChildren = addGrandChildren;
+        }
+
+
+
 
         public String getName() {
                 return name;
@@ -110,6 +134,11 @@ public class Person {
         public void setPets(List<String> pets) {
                 this.pets = pets;
         }
+
+
+
+
+
 }
 
 
