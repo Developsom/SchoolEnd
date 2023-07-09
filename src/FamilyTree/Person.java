@@ -1,5 +1,4 @@
 package FamilyTree;
-import java.util.HashMap;
 import java.util.List;
 
 public class Person {
@@ -15,12 +14,6 @@ public class Person {
         List<String> siblings;
         List<String> children;
         List<String> pets; //Took a while to remember how to instance a List
-
-        HashMap<String, String> addParent; // That took even longer
-        HashMap<String, String> addChild;
-        HashMap<String, String> addPet;
-        HashMap<String, String> addSibling;
-        HashMap<String, String> addGrandChildren;
 
 
 
@@ -44,13 +37,6 @@ public class Person {
                 this.age = age;
         }
 
-        public Person(HashMap<String, String> addParent, HashMap<String, String> addChild, HashMap<String, String> addPet, HashMap<String, String> addSibling, HashMap<String, String> addGrandChildren) {
-                this.addParent = addParent;
-                this.addChild = addChild;
-                this.addPet = addPet;
-                this.addSibling = addSibling;
-                this.addGrandChildren = addGrandChildren;
-        }
 
 
 
@@ -134,6 +120,10 @@ public class Person {
         public void setPets(List<String> pets) {
                 this.pets = pets;
         }
+
+
+
+
 
 
 
