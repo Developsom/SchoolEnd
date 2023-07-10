@@ -111,7 +111,7 @@ public class Person {
         }
 
 
-        // Add:
+        // Take your time and continue from here
         //addParents methode
         //addChild methode
         //addPet methode
