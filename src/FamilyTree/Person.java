@@ -110,6 +110,11 @@ public class Person {
                 this.pets = pets;
         }
 
+        public void addParents(Person father, Person mother) {
+                this.father = father;
+                this.mother = mother;
+        }
+
 
         // Take your time and continue from here
         //addParents methode
